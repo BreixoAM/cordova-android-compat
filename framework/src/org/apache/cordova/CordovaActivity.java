@@ -75,7 +75,7 @@ import android.widget.FrameLayout;
  * deprecated in favor of the config.xml file.
  *
  */
-public class CordovaActivity extends Activity {
+public class CordovaActivity extends android.support.v7.app.AppCompatActivity {
     public static String TAG = "CordovaActivity";
 
     // The webview for our app
